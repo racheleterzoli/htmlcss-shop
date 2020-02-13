@@ -1,0 +1,108 @@
+body{
+  display: inline-block;
+}
+div{
+  width:300px;
+	height:300px;
+	background : #C6C6C6;
+}
+.contenitore1{
+  position: relative;
+  }
+
+/* .contenitore1 h1{
+  opacity:0;
+} */
+h1{
+  opacity: 0;
+}
+.contenitore1:hover .cuore{
+  opacity: 1;
+}
+.contenitore2:hover .cuore{
+  opacity: 1;
+}
+.contenitore3:hover .cuore{
+  opacity: 1;
+}
+.contenitore4:hover .cuore{
+  opacity: 1;
+}
+.contenitore5:hover .cuore{
+  opacity: 1;
+}
+.contenitore6:hover .cuore{
+  opacity: 1;
+}
+.contenitore2{
+  position: absolute;
+  top:7px;
+  left:320px;
+  }
+.contenitore3{
+  position: absolute;
+  top:7px;
+  left:630px;
+}
+.contenitore4{
+
+  position: absolute;
+  left:630px;
+    top:330px;
+}
+.contenitore5{
+  position: absolute;
+  top:330px;
+}
+.contenitore6{
+  position: absolute;
+  left: 320px;
+  top:330px;
+}
+.dimensioni_img{
+  position: absolute;
+  top:10px;
+  left:10px;
+  width:280px;
+  height:280px;
+}
+.sconto{
+  position: absolute;
+    width:25px;
+  height:12px;
+  background : green;
+  left:265px;
+  top:10px;
+
+}
+.scontor{
+  position: absolute;
+  width:25px;
+  height:12px;
+  background : red;
+  left:265px;
+  top:10px;
+
+}
+.percentuale{
+  position: absolute;
+  font-size: 12px;
+
+  color : black;
+
+  top:-12px;
+
+}
+.cont2{
+  position: absolute;
+  left :1000px;
+  width:300px;
+  height:300px;
+
+}
+.cuore{
+  position: absolute;
+  top:240px;
+  right:125px;
+font-size: 20px;
+}
